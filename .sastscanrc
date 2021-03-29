@@ -1,5 +1,8 @@
 {
   "build_break_rules": {
-    "default": {"max_critical": 2, "max_high": 5, "max_medium": 15}
+    "Java Source Analyzer": {"max_critical": 2, "max_high": 5, "max_medium": 15},
+    "Class File Analyzer": {"max_critical": 2, "max_high": 5, "max_medium": 15},
+    "Shell Script Analysis": {"max_critical": 2, "max_high": 5, "max_medium": 15},
+    "Security Audit for Infrastructure": {"max_critical": 2, "max_high": 5, "max_medium": 15},
   }
 }
