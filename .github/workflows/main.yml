@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Perform Scan
-      - uses: ShiftLeftSecurity/scan-action@master
+        uses: ShiftLeftSecurity/scan-action@master
         env:
           VDB_HOME: ${{ github.workspace }}/vdb
           WORKSPACE: https://github.com/${{ github.repository }}/blob/${{ github.sha }}
